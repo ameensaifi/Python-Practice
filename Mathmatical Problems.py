@@ -1,4 +1,4 @@
-#Write downa  program to find the area and Perimeter of a Square
+#Write down a program to find the area and Perimeter of a Square
 '''
 L = int(input("Enter the side of the Square (in cm.) : "))
 Area = L ** 2
