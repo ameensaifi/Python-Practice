@@ -10,7 +10,7 @@ if num_1 > num_2:
         print("Largest Num is",num_3)
 elif num_2 > num_1:
     if  num_2 > num_3:
-        print("Larget Num is", num_2)
+        print("Largest Num is", num_2)
     elif num_3 > num_2:
         print("Largest Num is", num_3)
 else:
