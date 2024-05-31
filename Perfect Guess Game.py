@@ -9,11 +9,8 @@ Input = int(input('Write down a number between 1 to 100 : '))
 while True:
     x+=1
     if Input == a:
-        print('Perfect Match!')
+        print('Perfect Match!!!')
         break
-    elif Input > a:
-        print('A Smaller Number')
-    else:
-        print('A Bigger Number')
+    print('A Smaller Number' if Input > a else 'A Bigger Number')
     Input = int(input('Try again: '))
 print(f'You guessed the correct number in {x} gusses')
